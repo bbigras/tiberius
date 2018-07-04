@@ -152,7 +152,7 @@ mod collation;
 mod transport;
 mod plp;
 mod protocol;
-mod types;
+pub mod types;
 mod tokens;
 pub mod query;
 pub mod stmt;
